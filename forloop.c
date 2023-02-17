@@ -8,13 +8,15 @@
 // } 
 int main()
 {
-    int num , sum=0 ,i;
-    printf("Enter positive number:- ");
-    scanf("%d",&num);
-    for (  i = 0; i <= num ; ++i)
-    {
-        sum=sum+i;
+ int i,j,c;
+ 
+ for(i=1;i<=20;i++){
+    
+    for (j=1;j<=12;j++){
+        c=i*j;
+        printf("%2d",c);
     }
-    printf("The sum of first %d whole number=%d",num,sum);
-    return 0;
+    printf("\n");
+ }
+ return 0;
 }
