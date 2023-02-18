@@ -16,7 +16,7 @@ int main(){
    printf("ORDERD ELEMETS:-\n");
    for(i=0;i<num-1;i++)
    {
-    for(j=1;j<=num-1;j++){
+    for(j=0;j<=num-1;j++){
         if(a[j]>a[j+1]){
             ele=a[j];
             a[j]=a[j+1];
@@ -27,7 +27,7 @@ int main(){
     
    }
    for(i=0;i<num;i++){
-    printf("%d\n",a[i]);
+    printf("%d\t",a[i]);
    }
 return 0;
 }
