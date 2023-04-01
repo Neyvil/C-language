@@ -1,7 +1,9 @@
 #include <stdio.h>
+#include <string.h>
 
 int main() {
 
+  
   int n, reverse = 0, remainder;
 
   printf("Enter an integer: ");
@@ -14,6 +16,10 @@ int main() {
   }
 
   printf("Reversed number = %d", reverse);
+  char num[100]=(char)reverse;
+  char num1[100]=(char)n;
+  strcmp(reverse,n);
+
 
   return 0;
 }

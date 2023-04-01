@@ -11,7 +11,7 @@ int main(){
    }
    printf("ENTERED ELEMENT ARE:-\n");
    for(i=0;i<num;i++){
-    printf("%d\n",a[i]);
+    printf("%d\t",a[i]);
    }
    printf("ORDERD ELEMETS:-\n");
    for(i=0;i<num-1;i++)
